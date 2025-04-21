@@ -73,7 +73,6 @@ const images = [
       <img
         class="gallery-image"
         src="${img.preview}"
-        data-source="${img.original}"
         alt="${img.description}"
         width="500"
       />
@@ -81,16 +80,16 @@ const images = [
   </li>
   `).join('');
   }
-  gallery.addEventListener('click', (event)=>{
-    event.preventDefault();
-    if(!event.target.classList.contains("gallery-image")){
-    return;}
-    else{
-    const instance=basicLightbox.create(`
-      <div class="modal">
-        <img src="${event.target.dataset.source}"/>
-      </div>
-      `);
-    instance.show()
-    }
-  });
+//   gallery.addEventListener('click', (event)=>{
+//     event.preventDefault();
+//     if(!event.target.classList.contains("gallery-image")){
+//     return;}
+//     else{
+//     const instance=basicLightbox.create(`
+//       <div class="modal">
+//         <img src="${event.target}"/>
+//       </div>
+//       `);
+//     instance.show()
+//     }
+//   });
