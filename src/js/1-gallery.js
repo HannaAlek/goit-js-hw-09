@@ -80,6 +80,8 @@ const images = [
   </li>
   `).join('');
   }
+
+
 //   gallery.addEventListener('click', (event)=>{
 //     event.preventDefault();
 //     if(!event.target.classList.contains("gallery-image")){
