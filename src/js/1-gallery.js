@@ -81,6 +81,8 @@ const images = [
   `).join('');
   }
 
+//   import SimpleLightbox from "simplelightbox";
+
 
 //   gallery.addEventListener('click', (event)=>{
 //     event.preventDefault();
@@ -88,10 +90,14 @@ const images = [
 //     return;}
 //     else{
 //     const instance=basicLightbox.create(`
-//       <div class="modal">
-//         <img src="${event.target}"/>
-//       </div>
+//         <div uk-lightbox>
+//             <img src="${event.target}"></img>
+//         </div>
 //       `);
 //     instance.show()
 //     }
 //   });
+
+//   <div class="modal">
+//   <img src="${event.target}"/>
+// </div>
