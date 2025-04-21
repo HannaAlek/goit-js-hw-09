@@ -75,6 +75,7 @@ const images = [
         src="${img.preview}"
         data-source="${img.original}"
         alt="${img.description}"
+        width="500"
       />
     </a>
   </li>
